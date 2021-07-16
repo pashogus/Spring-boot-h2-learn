@@ -1,0 +1,9 @@
+http://www.techferry.com/articles/hibernate-jpa-annotations.html
+https://vladmihalcea.com/tutorials/hibernate/
+https://datacadamia.com/jpa/one-to-many
+
+
+
+There are several things to notice in the PostComment entity mapping above.
+First, the @ManyToOne association uses the FetchType.LAZY strategy because by default @ManyToOne and @OneToOne associations 
+use the FetchType.EAGER strategy which is bad for performance.
