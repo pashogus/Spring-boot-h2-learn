@@ -39,7 +39,6 @@ public class Tag {
 	        this.name = name;
 	    }
 	 
-	    //Getters and setters ommitted for brevity
 	 
 	    @Override
 	    public boolean equals(Object o) {
